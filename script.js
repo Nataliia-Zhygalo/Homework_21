@@ -45,7 +45,7 @@ function getArr(arr) {
  <tr>
     <td>Task name: ${task[0]}</td>
     <td>Task duration: ${task[1]} hours</td>
-    <td>Task amount: ${task[2]}$</td>
+    <td>Task amount: $ ${task[2]}</td>
  </tr>
  `})
 .join('');
